@@ -1,0 +1,585 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5193330241,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I logged in into OrangeHrm",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325500356,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on PIM link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338846032,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on  Add Employee link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-24T19:25:26.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9483729580,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Add Employee",
+        "description": "",
+        "id": "add-employee;add-employee;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1511987996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5610975995,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide \"Kemal\", \"K\", \"Berk\" and \"Blue Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kemal\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"K\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Berk\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Blue Office\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183647881,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on save button",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3017584583,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see \"Kemal\", \"Berk\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kemal\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Berk\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@addEmployee"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5062920555,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I logged in into OrangeHrm",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 592334251,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on PIM link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 902576187,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on  Add Employee link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-24T19:25:52.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5805900804,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add Employee",
+        "description": "",
+        "id": "add-employee;add-employee;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1207316373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4802063414,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide \"Elif\", \"E\", \"Zulal\" and \"West Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Elif\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"E\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Zulal\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"West Office\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171206230,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on save button",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3277917045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see \"Elif\", \"Zulal\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Elif\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Zulal\"",
+                  "offset": 14
+                }
+              ],
+              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@addEmployee"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4806950574,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I logged in into OrangeHrm",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 539145732,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on PIM link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098470710,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on  Add Employee link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-24T19:26:14.543Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5612476548,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Add Employee",
+        "description": "",
+        "id": "add-employee;add-employee;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1271195556,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5975314582,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide \"Zeynep\", \"Z\", \"Meral\" and \"HQ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zeynep\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Z\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Meral\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"HQ\"",
+                  "offset": 37
+                }
+              ],
+              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231806369,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on save button",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2006683718,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see \"Zeynep\", \"Meral\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zeynep\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Meral\"",
+                  "offset": 16
+                }
+              ],
+              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@addEmployee"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5678678611,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I logged in into OrangeHrm",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450326591,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on PIM link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1524948989,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on  Add Employee link",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-24T19:26:36.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5752261092,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add Employee Labels Verification",
+        "description": "",
+        "id": "add-employee;add-employee-labels-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 1209032872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3783300969,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see following labels",
+            "match": {
+              "location": "AddEmployeeSteps.i_see_following_labels(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Middle Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Last Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Employee Id"
+                ]
+              },
+              {
+                "cells": [
+                  "Location"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp1"
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee",
+    "description": "",
+    "id": "add-employee",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddEmployee.feature",
+    "tags": []
+  }
+]
