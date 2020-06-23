@@ -8,7 +8,7 @@ Feature: Add Employee
 
   @smoke @addEmployee
   Scenario Outline: Add Employee
-    When I provide "<FirstName>", "<MiddleName>", "<LastName>" and "<Location>" 
+    When I provide "<FirstName>", "<MiddleName>", "<LastName>" and "<Location>"
     And I click on save button
     Then I see "<FirstName>", "<LastName>" is displayed
 
@@ -18,8 +18,6 @@ Feature: Add Employee
       | Elif      | E          | Zulal    | West Office |
       | Zeynep    | Z          | Meral    | HQ          |
 
- 
-
   @temp1
   Scenario: Add Employee Labels Verification
     Then I see following labels
@@ -28,3 +26,7 @@ Feature: Add Employee
       | Last Name   |
       | Employee Id |
       | Location    |
+
+#@temp2
+ # Scenario: Add Employee Labels Verification
+   # When I provide firstname,middlename,lastname and location from excelFile "Sheet1" 

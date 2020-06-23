@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,514 +11,42 @@
         "steps": [
           {
             "result": {
-              "duration": 5193330241,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I logged in into OrangeHrm",
-            "match": {
-              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 325500356,
-              "status": "passed"
+              "duration": 348144,
+              "status": "skipped"
             },
             "line": 6,
-            "name": "I click on PIM link",
+            "name": "I see OrangeHrm logo",
             "match": {
-              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+              "location": "LoginSteps.i_see_OrangeHrm_logo()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1338846032,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on  Add Employee link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
-            },
-            "keyword": "And "
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2019-06-24T19:25:26.040Z",
+        "start_timestamp": "2019-11-18T05:52:03.435Z",
         "before": [
           {
             "result": {
-              "duration": 9483729580,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76\nBuild info: version: \u00273.141.5\u0027, revision: \u0027d54ebd709a\u0027, time: \u00272018-11-06T11:42:16\u0027\nSystem info: host: \u0027DELL-235CI4GQPV\u0027, ip: \u0027192.168.1.201\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x01147C93+1473683]\n\tOrdinal0 [0x010CADB1+961969]\n\tOrdinal0 [0x010542E3+475875]\n\tOrdinal0 [0x00FEF365+62309]\n\tOrdinal0 [0x00FEBC77+48247]\n\tOrdinal0 [0x01009149+168265]\n\tOrdinal0 [0x01008D1D+167197]\n\tOrdinal0 [0x0100742B+160811]\n\tOrdinal0 [0x00FF0AE6+68326]\n\tOrdinal0 [0x00FF1BF0+72688]\n\tOrdinal0 [0x00FF1B89+72585]\n\tOrdinal0 [0x010E4B77+1067895]\n\tGetHandleVerifier [0x011E6875+506677]\n\tGetHandleVerifier [0x011E6610+506064]\n\tGetHandleVerifier [0x011ED1B8+533624]\n\tGetHandleVerifier [0x011E704A+508682]\n\tOrdinal0 [0x010DC266+1032806]\n\tOrdinal0 [0x010DC0DF+1032415]\n\tOrdinal0 [0x010E6A8B+1075851]\n\tOrdinal0 [0x010E6BF3+1076211]\n\tOrdinal0 [0x010E5BA5+1072037]\n\tBaseThreadInitThunk [0x76ED6A14+36]\n\tRtlInitializeExceptionChain [0x77EDAD8F+143]\n\tRtlInitializeExceptionChain [0x77EDAD5A+90]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.findFirst(Unknown Source)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.orangehrm.utils.BaseClass.setUp(BaseClass.java:19)\r\n\tat com.orangehrm.steps.Hooks.start(Hooks.java:16)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:42)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:49)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:123)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:147)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 7404939877,
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.start(Scenario)"
             }
           }
         ],
-        "line": 17,
-        "name": "Add Employee",
+        "line": 9,
+        "name": "Valid login",
         "description": "",
-        "id": "add-employee;add-employee;;2",
+        "id": "login;valid-login",
         "after": [
           {
             "result": {
-              "duration": 1511987996,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.end(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5610975995,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I provide \"Kemal\", \"K\", \"Berk\" and \"Blue Office\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Kemal\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"K\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Berk\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"Blue Office\"",
-                  "offset": 35
-                }
-              ],
-              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 183647881,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on save button",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3017584583,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I see \"Kemal\", \"Berk\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Kemal\"",
-                  "offset": 6
-                },
-                {
-                  "val": "\"Berk\"",
-                  "offset": 15
-                }
-              ],
-              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@addEmployee"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5062920555,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I logged in into OrangeHrm",
-            "match": {
-              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 592334251,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click on PIM link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 902576187,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on  Add Employee link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-06-24T19:25:52.720Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5805900804,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.start(Scenario)"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Add Employee",
-        "description": "",
-        "id": "add-employee;add-employee;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1207316373,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.end(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4802063414,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I provide \"Elif\", \"E\", \"Zulal\" and \"West Office\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Elif\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"E\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"Zulal\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"West Office\"",
-                  "offset": 35
-                }
-              ],
-              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 171206230,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on save button",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3277917045,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I see \"Elif\", \"Zulal\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Elif\"",
-                  "offset": 6
-                },
-                {
-                  "val": "\"Zulal\"",
-                  "offset": 14
-                }
-              ],
-              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@addEmployee"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4806950574,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I logged in into OrangeHrm",
-            "match": {
-              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 539145732,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click on PIM link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1098470710,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on  Add Employee link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-06-24T19:26:14.543Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5612476548,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.start(Scenario)"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Add Employee",
-        "description": "",
-        "id": "add-employee;add-employee;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 1271195556,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.end(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5975314582,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I provide \"Zeynep\", \"Z\", \"Meral\" and \"HQ\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Zeynep\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"Z\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"Meral\"",
-                  "offset": 25
-                },
-                {
-                  "val": "\"HQ\"",
-                  "offset": 37
-                }
-              ],
-              "location": "AddEmployeeSteps.i_provide_and(String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 231806369,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on save button",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2006683718,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I see \"Zeynep\", \"Meral\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Zeynep\"",
-                  "offset": 6
-                },
-                {
-                  "val": "\"Meral\"",
-                  "offset": 16
-                }
-              ],
-              "location": "AddEmployeeSteps.i_see_is_displayed(String,String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@addEmployee"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5678678611,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I logged in into OrangeHrm",
-            "match": {
-              "location": "AddEmployeeSteps.i_logged_in_into_OrangeHrm()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 450326591,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click on PIM link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_PIM_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1524948989,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on  Add Employee link",
-            "match": {
-              "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-06-24T19:26:36.088Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5752261092,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.start(Scenario)"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Add Employee Labels Verification",
-        "description": "",
-        "id": "add-employee;add-employee-labels-verification",
-        "after": [
-          {
-            "result": {
-              "duration": 1209032872,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.orangehrm.utils.CommonMethods.takeScreenshot(CommonMethods.java:178)\r\n\tat com.orangehrm.steps.Hooks.end(Hooks.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:49)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:123)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:147)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 4621128,
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.end(Scenario)"
@@ -530,56 +58,79 @@
         "steps": [
           {
             "result": {
-              "duration": 3783300969,
-              "status": "passed"
+              "duration": 20938,
+              "status": "skipped"
             },
-            "line": 25,
-            "name": "I see following labels",
+            "line": 10,
+            "name": "I enter valid username and password",
             "match": {
-              "location": "AddEmployeeSteps.i_see_following_labels(DataTable)"
+              "location": "LoginSteps.i_enter_valid_username_and_password()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "First Name"
-                ]
-              },
-              {
-                "cells": [
-                  "Middle Name"
-                ]
-              },
-              {
-                "cells": [
-                  "Last Name"
-                ]
-              },
-              {
-                "cells": [
-                  "Employee Id"
-                ]
-              },
-              {
-                "cells": [
-                  "Location"
-                ]
-              }
-            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13959,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11906,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_successfully_logged_in()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@temp1"
+            "name": "@sprint3"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@test1"
           }
         ]
       }
     ],
-    "name": "Add Employee",
+    "name": "Login",
     "description": "",
-    "id": "add-employee",
+    "id": "login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AddEmployee.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@sprint3",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 10
+        }
+      }
+    ]
   }
 ]

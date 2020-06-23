@@ -1,8 +1,11 @@
 package com.orangehrm.steps;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.math3.analysis.function.Constant;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
@@ -11,6 +14,8 @@ import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.utils.CommonMethods;
 import com.orangehrm.utils.ConfigsReader;
+import com.orangehrm.utils.Constans;
+import com.orangehrm.utils.ExcelUtility;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -88,5 +93,39 @@ public class AddEmployeeSteps extends CommonMethods {
 	public void i_click_on_create_login_details() {
 	    click(emp.createLoginDetails);
 	}
+	@When("I provide firstname,middlename,lastname and location from excelFile {string}")
+
+	public void i_provide_firstname_middlename_lastname_and_location_from_excelFile(String Sheet1) throws InterruptedException {
+		
+		home = new HomePage();
+		emp = new AddEmployeePage();
+		
+		ExcelUtility excel= new ExcelUtility();
+		excel.openExcel(Constans.XL_FILEPATH, Sheet1);
+		
+		int rows=excel.getRowNum();
+		int cols=excel.getColNum(0);
+		
+		for(int i=1;i<rows;i++) {
+			for(int j=0;j<cols;j++) {
+				String firstname=excel.getCellData(i, j);
+                sendText(emp.firstName, firstname);
+				String middlename=excel.getCellData(i, ++j);
+				sendText(emp.middleName, middlename);
+				String lastname=excel.getCellData(i, ++j);
+				sendText(emp.lastName, lastname);
+				String location=excel.getCellData(i, ++j);
+				click(emp.location);
+				waitForElementBeVisible(emp.locationList, 100);
+				selectList(emp.locationList, location);
+				Thread.sleep(5000);
+				click(emp.saveBtn);
+				Thread.sleep(5000);
+			}
+			waitForElementBeClickable(home.addEmployee, 100);
+			click(home.addEmployee);
+		}
+	}
+
 
 }
